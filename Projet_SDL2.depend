@@ -1,0 +1,851 @@
+# depslib dependency file v1.0
+1376988236 source:c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\src\main.c
+	<SDL2/SDL.h>
+	<stdio.h>
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_minimal.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\begin_code.h
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\close_code.h
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config_windows.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config_psp.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\projet_sdl2_windows_codeblocks\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1427713661 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\main.c
+	<SDL2/SDL.h>
+	<stdio.h>
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_minimal.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\begin_code.h
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\close_code.h
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config_windows.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config_psp.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376279874 c:\users\doubi\documents\programmation\c++\hack&slash\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1427730482 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\util\input.cpp
+	<SDL2/SDL.h>
+	"input.h"
+
+1427714807 c:\users\doubi\documents\programmation\c++\hack&slash\src\util\input.h
+	"vec.h"
+
+1427807815 c:\users\doubi\documents\programmation\c++\hack&slash\src\util\vec.h
+
+1427807948 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\util\vec.cpp
+	"vec.h"
+	<cmath>
+
+1427810360 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\main.cpp
+	<SDL2/SDL.h>
+	<stdio.h>
+	<iostream>
+	<cstring>
+	"util/input.h"
+	"draw/screen.h"
+	"util/color.h"
+	"draw/gfx/SDL2_framerate.h"
+	"world/player/player.h"
+	"world/monster.h"
+	"world/player/target/target.h"
+	"world/fight/projectile/projectile.h"
+	"world/fight/effect.h"
+
+1427749017 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\screen.cpp
+	<SDL2/SDL.h>
+	<cstring>
+	<iostream>
+	<cmath>
+	"gfx/SDL2_gfxPrimitives.h"
+	"screen.h"
+	"../util/color.h"
+
+1427742172 c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\screen.h
+	"../util/vec.h"
+	"../util/color.h"
+
+1427739288 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\util\color.cpp
+	"color.h"
+
+1427734061 c:\users\doubi\documents\programmation\c++\hack&slash\src\util\color.h
+	<SDL2/SDL.h>
+
+1346781080 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_framerate.c
+	"SDL2_framerate.h"
+
+1427747130 c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_framerate.h
+	"SDL2/SDL.h"
+
+1402838726 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_gfxprimitives.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"SDL2_gfxPrimitives.h"
+	"SDL2_rotozoom.h"
+	"SDL2_gfxPrimitives_font.h"
+	<emmintrin.h>
+	<armintr.h>
+
+1427747138 c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_gfxprimitives.h
+	<math.h>
+	"SDL2/SDL.h"
+
+1427747146 c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_rotozoom.h
+	<math.h>
+	"SDL2/SDL.h"
+
+1346834314 c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_gfxprimitives_font.h
+
+1427747170 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_imagefilter.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL2/SDL.h"
+	<mmintrin.h>
+	<SDL2/SDL_cpuinfo.h>
+	"SDL2_imageFilter.h"
+
+1379847936 c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_imagefilter.h
+
+1391346140 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\gfx\sdl2_rotozoom.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	"SDL2_rotozoom.h"
+
+1427810627 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\entity.cpp
+	<SDL2/SDL.h>
+	"entity.h"
+
+1427810599 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\entity.h
+	"../draw/screen.h"
+	"world.h"
+
+1427763321 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player.cpp
+	<SDL2/SDL.h>
+	"../util/vec.h"
+	"player.h"
+
+1427763316 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player.h
+	"entity.h"
+
+1427810638 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\monster.cpp
+	<SDL2/SDL.h>
+	"../util/vec.h"
+	"monster.h"
+
+1427810585 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\monster.h
+	"entity.h"
+
+1427805434 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\world.cpp
+	<SDL2/SDL.h>
+	"fight/projectile/projectile.h"
+	"world.h"
+
+1427805337 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\world.h
+	<vector>
+	"entity.h"
+	"player/player.h"
+
+1427810590 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\player.h
+	"../entity.h"
+	"target/target.h"
+
+1427811011 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\target\target.h
+	"../player.h"
+	"../../monster.h"
+
+1427811092 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\player.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"../../util/vec.h"
+	"player.h"
+
+1427811029 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\target\target.cpp
+	<SDL2/SDL.h>
+	"target.h"
+	"../../fight/effect.h"
+
+1427804659 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\projectile\projectile.h
+	"../entity.h"
+
+1427804633 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\projectile\projectile.cpp
+	<SDL2/SDL.h>
+	"projectile.h"
+
+1427808938 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect.cpp
+	<SDL2/SDL.h>
+	"effect.h"
+
+1427805331 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\projectile\projectile.h
+	"../../entity.h"
+
+1427806670 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\projectile\projectile.cpp
+	<SDL2/SDL.h>
+	"projectile.h"
+
+1427808908 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect.h
+	"../entity.h"
+	"direction.h"
+	"projectile/projectile.h"
+
+1427807963 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\direction.cpp
+	<SDL2/SDL.h>
+	"direction.h"
+
+1427807784 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\direction.h
+	"../../util/vec.h"
+
