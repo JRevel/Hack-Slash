@@ -3,18 +3,24 @@
 
 #include "../../entity.h"
 
+
 class Projectile : public Entity
 {
 private:
     vec2 m_pos, m_speed;
     float m_r;
-    int m_duration, m_time, m_damage;
+    int m_duration, m_time;
+    Effect* m_effect;
+    bool m_isDead;
+    LivingEntity *m_ignore;
 
 public:
-    Projectile(vec2 pos, vec2 speed, float r, int duration, int damage);
+    Projectile(vec2 pos, vec2 speed, float r, int duration, Effect* effect, LivingEntity *ignore = NULL);
+    ~Projectile();
     virtual void update(World &world);
     virtual void draw(Screen &screen) const;
     virtual bool isDead() const;
+    void onCollision(World &world, LivingEntity *entity);
 };
 
 #endif // PROJECTILE_H_INCLUDED

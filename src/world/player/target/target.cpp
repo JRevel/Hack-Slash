@@ -2,6 +2,7 @@
 
 #include "target.h"
 #include "../../fight/effect.h"
+#include "../../fight/node.h"
 
 Target::Target(LivingEntity &caster) : m_caster(caster)
 {
@@ -28,7 +29,7 @@ void SimpleTarget::targetReached(World &world) const
 
 }
 
-AttackTarget::AttackTarget(LivingEntity &caster, LivingEntity* target, Effect *effect) : Target(caster), m_target(target), m_effect(new CastEffect(caster, effect))
+AttackTarget::AttackTarget(LivingEntity &caster, LivingEntity* target, Effect *effect) : Target(caster), m_target(target), m_effect(effect)
 {
 
 }
@@ -45,11 +46,10 @@ vec2 AttackTarget::getTargetPos() const
 
 bool AttackTarget::isAtRange() const
 {
-    return (m_caster.pos()-m_target->pos()).length() < m_caster.r() + m_target->r() + m_effect->getRange();
+    return (m_caster.pos()-m_target->pos()).length() < m_caster.r() + m_target->r() + m_effect->getFloatOut("range")->getValue();// + m_effect->getFloat("range");
 }
 
 void AttackTarget::targetReached(World &world) const
 {
-    TargetDirection dir = TargetDirection(m_target->pos());
-    m_effect->applyEffect(world, dir);
+    CastEffect(m_caster, m_effect, m_target).applyEffect(world);
 }

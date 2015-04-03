@@ -14,6 +14,7 @@ private:
     std::vector<LivingEntity*> m_entities;
     std::vector<Projectile*> m_projectiles;
     Player *m_player;
+    std::vector<TimedEffect*> m_liveEffects;
 
 public:
     World(Player *player);
@@ -23,6 +24,8 @@ public:
     void update();
     void draw(Screen &screen) const;
     Player& getPlayer() const;
+    std::vector<LivingEntity*> getEntitiesNear(vec2 pos);
+    void addEffect(TimedEffect *effect);
 
     LivingEntity *getEntityAt(vec2 pos) const;
 };

@@ -1,4 +1,5 @@
 #include <SDL2/SDL.h>
+#include <iostream>
 #include "fight/projectile/projectile.h"
 
 #include "world.h"
@@ -12,6 +13,8 @@ World::~World()
 {
     for(int i=0; i<m_entities.size(); i++)
         delete m_entities[i];
+    for(int i=0; i<m_projectiles.size(); i++)
+        delete m_projectiles[i];
     delete m_player;
 }
 
@@ -28,13 +31,21 @@ void World::addProjectile(Projectile *proj)
 void World::update()
 {
     for(int i=0; i<m_entities.size(); i++)
+        m_entities[i]->wakeUp();
+    for(int i=0; i<m_projectiles.size(); i++)
+        m_projectiles[i]->wakeUp();
+
+    for(int i=0; i<m_entities.size(); i++)
         m_entities[i]->update(*this);
     for(int i=0; i<m_projectiles.size(); i++)
         m_projectiles[i]->update(*this);
+    m_player->update(*this);
+
     for(std::vector<LivingEntity*>::iterator i=m_entities.begin(); i<m_entities.end(); i++)
     {
         if((*i)->isDead())
         {
+            std::cout << "!ERASE!" << std::endl;
             delete *i;
             m_entities.erase(i);
         }
@@ -47,7 +58,6 @@ void World::update()
             m_projectiles.erase(i);
         }
     }
-    m_player->update(*this);
 }
 
 void World::draw(Screen &screen) const
@@ -72,4 +82,9 @@ LivingEntity* World::getEntityAt(vec2 pos) const
             return m_entities[i];
     }
     return NULL;
+}
+
+std::vector<LivingEntity*> World::getEntitiesNear(vec2 pos)
+{
+    return m_entities;
 }

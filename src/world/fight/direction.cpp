@@ -21,3 +21,13 @@ vec2 TargetDirection::getDirection(vec2 pos)
 {
     return (m_target-pos).normalize();
 }
+
+EntityDirection::EntityDirection(LivingEntity *target) : m_target(target)
+{
+
+}
+
+vec2 EntityDirection::getDirection(vec2 pos)
+{
+    return (m_target->pos()-pos).normalize();
+}

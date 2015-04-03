@@ -1,6 +1,21 @@
 #include <SDL2/SDL.h>
 #include "entity.h"
 
+Entity::Entity() : m_sleeping(true)
+{
+
+}
+
+void Entity::wakeUp()
+{
+    m_sleeping = false;
+}
+
+bool Entity::isSleeping() const
+{
+    return m_sleeping;
+}
+
 LivingEntity::LivingEntity(vec2 pos, float r, int PVs, float range) : m_pos(pos), m_r(r), m_PVs(PVs), m_range(range)
 {
 

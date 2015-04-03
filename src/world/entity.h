@@ -7,10 +7,15 @@ class World;
 
 class Entity
 {
+private:
+    bool m_sleeping;
 public:
+    Entity();
     virtual void update(World &world) = 0;
     virtual void draw(Screen &screen) const = 0;
     virtual bool isDead() const = 0;
+    void wakeUp();
+    bool isSleeping() const;
 };
 
 class LivingEntity : public Entity

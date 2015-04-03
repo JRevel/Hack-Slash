@@ -74,6 +74,8 @@
 		<Unit filename="src/world/fight/direction.h" />
 		<Unit filename="src/world/fight/effect.cpp" />
 		<Unit filename="src/world/fight/effect.h" />
+		<Unit filename="src/world/fight/node.cpp" />
+		<Unit filename="src/world/fight/node.h" />
 		<Unit filename="src/world/fight/projectile/projectile.cpp" />
 		<Unit filename="src/world/fight/projectile/projectile.h" />
 		<Unit filename="src/world/monster.cpp" />

@@ -25,7 +25,7 @@ float vec2::length() const
 float vec2::angle() const
 {
     if(x == 0)
-        return y>0 ? 3.14/2:-3.14/2;
+        return y>0 ? M_PI/2:-M_PI/2;
     return x>0 ? atan(y/x) : atan(y/x)+3.14;
 }
 
