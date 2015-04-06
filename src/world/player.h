@@ -1,7 +1,7 @@
 #ifndef PLAYER_H_INCLUDED
 #define PLAYER_H_INCLUDED
 
-#include "../entity.h"
+#include "entity.h"
 
 class Target;
 
@@ -18,7 +18,5 @@ public:
     virtual bool isDead() const;
     void setTarget(Target* target);
 };
-
-#include "target/target.h"
 
 #endif // PLAYER_H_INCLUDED

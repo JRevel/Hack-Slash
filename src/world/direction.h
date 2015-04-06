@@ -1,8 +1,8 @@
 #ifndef DIRECTION_H_INCLUDED
 #define DIRECTION_H_INCLUDED
 
-#include "../../util/vec.h"
-#include "../entity.h"
+#include "../util/vec.h"
+#include "entity.h"
 
 class Direction
 {

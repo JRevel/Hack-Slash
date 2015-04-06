@@ -1,4 +1,5 @@
 #include <SDL2/SDL.h>
+#include <cmath>
 
 #include <stdio.h>
 #include <iostream>
@@ -8,11 +9,11 @@
 #include "draw/screen.h"
 #include "util/color.h"
 #include "draw/gfx/SDL2_framerate.h"
-#include "world/player/player.h"
+#include "world/player.h"
 #include "world/monster.h"
-#include "world/player/target/target.h"
-#include "world/fight/projectile/projectile.h"
-#include "world/fight/effect.h"
+#include "world/target.h"
+#include "world/projectile.h"
+#include "spell/effect.h"
 
 int main(int argc, char** argv)
 {
@@ -61,10 +62,7 @@ int main(int argc, char** argv)
                 }
                 else
                 {
-                    Effect** effects = new Effect*[2];
-                    effects[0] = new SplitEffect(new ProjectileEffect(new DamageEffect(1), 5, 25, 1), 25, M_PI*2);
-                    effects[1] = new DamageEffect(1);
-                    world.getPlayer().setTarget(new AttackTarget(world.getPlayer(), target, new ProjectileEffect(new MultiEffect(effects, 2), 5, 100, 1)));
+                    world.getPlayer().setTarget(new AttackTarget(world.getPlayer(), target, new RotationSpell(2*M_PI/60, 240, 4, new ProjectileSpell(5, 5, 100, new DamageSpell(10)))));
                 }
             }
 
@@ -91,7 +89,7 @@ int main(int argc, char** argv)
                 }
                 else
                 {
-                    world.getPlayer().setTarget(new AttackTarget(world.getPlayer(), target, new SplitEffect(new ProjectileEffect(new DamageEffect(10), 5, 100, 10), 5, M_PI/8)));
+                    world.getPlayer().setTarget(new AttackTarget(world.getPlayer(), target, new AttackSpell(new ZoneSpell(100, new DamageSpell(10)), 30)));
                 }
             }
 

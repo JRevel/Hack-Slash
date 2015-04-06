@@ -3,29 +3,31 @@
 
 #include <vector>
 #include "entity.h"
-#include "player/player.h"
+#include "player.h"
+#include "../spell/effect.h"
 
 class Player;
 class Projectile;
+class Effect;
 
 class World
 {
 private:
     std::vector<LivingEntity*> m_entities;
     std::vector<Projectile*> m_projectiles;
+    std::vector<Effect*> m_effects;
     Player *m_player;
-    std::vector<TimedEffect*> m_liveEffects;
 
 public:
     World(Player *player);
     ~World();
     void addEntity(LivingEntity *entity);
     void addProjectile(Projectile *proj);
+    void addEffect(Effect* effect);
     void update();
     void draw(Screen &screen) const;
     Player& getPlayer() const;
     std::vector<LivingEntity*> getEntitiesNear(vec2 pos);
-    void addEffect(TimedEffect *effect);
 
     LivingEntity *getEntityAt(vec2 pos) const;
 };

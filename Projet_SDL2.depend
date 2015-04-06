@@ -688,8 +688,9 @@
 	"vec.h"
 	<cmath>
 
-1428050740 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\main.cpp
+1428367907 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\main.cpp
 	<SDL2/SDL.h>
+	<cmath>
 	<stdio.h>
 	<iostream>
 	<cstring>
@@ -697,11 +698,11 @@
 	"draw/screen.h"
 	"util/color.h"
 	"draw/gfx/SDL2_framerate.h"
-	"world/player/player.h"
+	"world/player.h"
 	"world/monster.h"
-	"world/player/target/target.h"
-	"world/fight/projectile/projectile.h"
-	"world/fight/effect.h"
+	"world/target.h"
+	"world/projectile.h"
+	"spell/effect.h"
 
 1427749017 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\draw\screen.cpp
 	<SDL2/SDL.h>
@@ -774,12 +775,14 @@
 	"../draw/screen.h"
 	"world.h"
 
-1427763321 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player.cpp
+1428367972 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player.cpp
 	<SDL2/SDL.h>
+	<iostream>
 	"../util/vec.h"
 	"player.h"
+	"target.h"
 
-1427763316 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player.h
+1428367922 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player.h
 	"entity.h"
 
 1427810638 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\monster.cpp
@@ -790,22 +793,25 @@
 1427810585 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\monster.h
 	"entity.h"
 
-1427988273 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\world.cpp
+1428347821 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\world.cpp
 	<SDL2/SDL.h>
 	<iostream>
+	<algorithm>
 	"fight/projectile/projectile.h"
+	"fight/effect/effect.h"
 	"world.h"
 
-1427874617 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\world.h
+1428367953 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\world.h
 	<vector>
 	"entity.h"
-	"player/player.h"
+	"player.h"
+	"../spell/effect.h"
 
 1427810590 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\player.h
 	"../entity.h"
 	"target/target.h"
 
-1427811011 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\target\target.h
+1428252549 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\target\target.h
 	"../player.h"
 	"../../monster.h"
 
@@ -815,11 +821,12 @@
 	"../../util/vec.h"
 	"player.h"
 
-1428049872 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\target\target.cpp
+1428332038 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\player\target\target.cpp
 	<SDL2/SDL.h>
+	<iostream>
 	"target.h"
-	"../../fight/effect.h"
-	"../../fight/node.h"
+	"../../../spell/effect.h"
+	"../../fight/effect/node.h"
 
 1427804659 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\projectile\projectile.h
 	"../entity.h"
@@ -828,23 +835,23 @@
 	<SDL2/SDL.h>
 	"projectile.h"
 
-1428050566 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect.cpp
+1428071790 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect.cpp
 	<SDL2/SDL.h>
 	<iostream>
 	"effect.h"
 	"node.h"
 	<cmath>
 
-1428045866 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\projectile\projectile.h
+1428338656 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\projectile\projectile.h
 	"../../entity.h"
 
-1428045899 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\projectile\projectile.cpp
+1428341950 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\projectile\projectile.cpp
 	<SDL2/SDL.h>
 	<iostream>
 	"projectile.h"
-	"../effect.h"
+	"../../../spell/effect.h"
 
-1428050580 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect.h
+1428071917 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect.h
 	"../entity.h"
 	"direction.h"
 	"projectile/projectile.h"
@@ -880,4 +887,77 @@
 	"projectile/projectile.h"
 	<map>
 	<string>
+
+1428072711 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect\effect.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"effect.h"
+	"node.h"
+	<cmath>
+
+1428072678 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect\effect.h
+	"../../entity.h"
+	"../direction.h"
+	"../projectile/projectile.h"
+	<map>
+	<string>
+
+1428072361 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect\node.h
+	<string>
+	"../../../util/vec.h"
+
+1427897871 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect\node.cpp
+	<SDL2/SDL.h>
+	"node.h"
+
+1428075215 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect\timed_effect.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<cmath>
+	"effect.h"
+	"node.h"
+	"timed_effect.h"
+
+1428074191 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\fight\effect\timed_effect.h
+
+1428367942 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\spell\effect.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<cmath>
+	"effect.h"
+	"../world/entity.h"
+	"../world/projectile.h"
+
+1428364530 c:\users\doubi\documents\programmation\c++\hack&slash\src\spell\effect.h
+	<map>
+	<string>
+	"../util/vec.h"
+	"../world/world.h"
+
+1428367929 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\target.h
+	"player.h"
+	"monster.h"
+
+1428367933 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\projectile.h
+	"entity.h"
+
+1427834531 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\direction.cpp
+	<SDL2/SDL.h>
+	"direction.h"
+
+1428367845 c:\users\doubi\documents\programmation\c++\hack&slash\src\world\direction.h
+	"../util/vec.h"
+	"entity.h"
+
+1428367978 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\projectile.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"projectile.h"
+	"../spell/effect.h"
+
+1428367999 source:c:\users\doubi\documents\programmation\c++\hack&slash\src\world\target.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"target.h"
+	"../spell/effect.h"
 

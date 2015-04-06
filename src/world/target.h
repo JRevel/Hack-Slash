@@ -1,10 +1,11 @@
 #ifndef TARGET_H_INCLUDED
 #define TARGET_H_INCLUDED
 
-#include "../player.h"
-#include "../../monster.h"
+#include "player.h"
+#include "monster.h"
 
 class Effect;
+class Spell;
 
 class Target
 {
@@ -36,10 +37,10 @@ class AttackTarget : public Target
 {
 protected:
     LivingEntity *m_target;
-    Effect *m_effect;
+    Spell *m_spell;
 
 public:
-    AttackTarget(LivingEntity &caster, LivingEntity *target, Effect *effect);
+    AttackTarget(LivingEntity &caster, LivingEntity *target, Spell *spell);
     ~AttackTarget();
     virtual vec2 getTargetPos() const;
     virtual bool isAtRange() const;

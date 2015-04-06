@@ -1,8 +1,9 @@
 #include <SDL2/SDL.h>
 #include <iostream>
 
-#include "../../util/vec.h"
+#include "../util/vec.h"
 #include "player.h"
+#include "target.h"
 
 Player::Player(vec2 pos, float r, float speed, int PVs, float range) : LivingEntity(pos, r, PVs, range), m_speed(speed), m_target(NULL)
 {

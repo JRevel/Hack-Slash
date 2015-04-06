@@ -1,8 +1,8 @@
 #include <SDL2/SDL.h>
+#include <iostream>
 
 #include "target.h"
-#include "../../fight/effect.h"
-#include "../../fight/node.h"
+#include "../spell/effect.h"
 
 Target::Target(LivingEntity &caster) : m_caster(caster)
 {
@@ -29,14 +29,14 @@ void SimpleTarget::targetReached(World &world) const
 
 }
 
-AttackTarget::AttackTarget(LivingEntity &caster, LivingEntity* target, Effect *effect) : Target(caster), m_target(target), m_effect(effect)
+AttackTarget::AttackTarget(LivingEntity &caster, LivingEntity* target, Spell *spell) : Target(caster), m_target(target), m_spell(spell)
 {
 
 }
 
 AttackTarget::~AttackTarget()
 {
-    delete m_effect;
+    delete m_spell;
 }
 
 vec2 AttackTarget::getTargetPos() const
@@ -46,10 +46,16 @@ vec2 AttackTarget::getTargetPos() const
 
 bool AttackTarget::isAtRange() const
 {
-    return (m_caster.pos()-m_target->pos()).length() < m_caster.r() + m_target->r() + m_effect->getFloatOut("range")->getValue();// + m_effect->getFloat("range");
+    return (m_caster.pos()-m_target->pos()).length() < m_caster.r() + m_target->r() + m_spell->getRange();
 }
 
 void AttackTarget::targetReached(World &world) const
 {
-    CastEffect(m_caster, m_effect, m_target).applyEffect(world);
+    EffectData data;
+    data.setEntity("target", m_target);
+    data.setEntity("caster", &m_caster);
+    data.setVec("pos", m_caster.pos());
+    data.setVec("targetPos", m_target->pos());
+    data.setVec("dir", m_target->pos()-m_caster.pos());
+    world.addEffect(m_spell->cast(data));
 }
